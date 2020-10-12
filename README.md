@@ -5,24 +5,19 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 客户端打包
 ```
-npm run serve
+build:client
 ```
 
-### Compiles and minifies for production
+### 服务端打包
+```
+npm run build:server
+```
+
+### 客户端、服务端共同打包
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
